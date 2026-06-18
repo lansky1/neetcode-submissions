@@ -1,3 +1,8 @@
+'''
+    Change: Implemented Python Code in C++
+    Comments: Instead of looping over i, can loop over vector elements like python (Top Solution)
+'''
+
 class Solution {
 public:
     int findMaxConsecutiveOnes(vector<int>& nums) {

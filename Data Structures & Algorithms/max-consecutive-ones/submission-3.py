@@ -1,3 +1,7 @@
+'''
+    Change: Improve parent loop complexity for n^2 to n
+'''
+
 class Solution:
     def findMaxConsecutiveOnes(self, nums: List[int]) -> int:
         max_count = 0

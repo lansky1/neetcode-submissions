@@ -1,3 +1,7 @@
+'''
+    Change: Prevent j from exceeding array size
+'''
+
 class Solution:
     def findMaxConsecutiveOnes(self, nums: List[int]) -> int:
         max_count = 0

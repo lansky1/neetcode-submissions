@@ -1,3 +1,8 @@
+'''
+    Change: Simplify the code
+    Source: Claude
+'''
+
 class Solution:
     def findMaxConsecutiveOnes(self, nums: List[int]) -> int:
         max_count = 0
