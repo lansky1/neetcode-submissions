@@ -1,5 +1,5 @@
 '''
-    Python 1
+    Python 2
 '''
 
 class Solution:
