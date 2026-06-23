@@ -17,6 +17,7 @@ class BrowserHistory:
         self.curr = self.curr.next
 
     def back(self, steps: int) -> str:
+        # integers are mutable, so this steps is a copy
         while self.curr.prev and steps > 0:
             self.curr = self.curr.prev
             steps-=1
