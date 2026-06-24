@@ -1,5 +1,7 @@
 """
 Approach: Using Two Deque
+Time complexity: O(n^2)
+Space complexity: O(n)
 """
 
 from collections import deque
