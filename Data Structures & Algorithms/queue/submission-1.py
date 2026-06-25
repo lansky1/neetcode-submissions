@@ -1,7 +1,7 @@
 # ─────────────────────────────────────────────────────────
 # Date : 26 Jun 2026
 # ─────────────────────────────────────────────────────────
-# Approach : Doubly Linked List
+# Approach : Doubly Linked List using Single Sentinal Node
 # Time : O(1) all operations
 # Space: O(n)
 # ─────────────────────────────────────────────────────────
