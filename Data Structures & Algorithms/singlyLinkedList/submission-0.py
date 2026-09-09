@@ -1,4 +1,4 @@
-# Time 21:21
+# Time 38:48
 
 class ListNode:
     def __init__(self, val=0, next=None):
