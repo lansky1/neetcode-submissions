@@ -1,4 +1,5 @@
 # Time 9.54
+# This can be done using doubly linked list, with two placeholder nodes.
 
 class ListNode:
     def __init__(self, val=0, next=None):
