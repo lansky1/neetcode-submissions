@@ -1,5 +1,6 @@
 # Some edge case
 # Failing code
+# This is the quickselect algorithm, used to identify kth smallest or largest element
 
 class Solution:
     def kClosest(self, points: List[List[int]], k: int) -> List[List[int]]:
