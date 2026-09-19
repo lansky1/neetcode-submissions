@@ -1,3 +1,6 @@
+# There is a better approach using two pointers - slow and fast. 
+# Keep fast n steps ahead of slow, and then remove slow.next
+
 class Solution:
     def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
         if head.next is None and n == 1:
