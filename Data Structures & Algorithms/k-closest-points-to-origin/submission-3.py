@@ -1,3 +1,6 @@
+# Some edge case
+# Failing code
+
 class Solution:
     def kClosest(self, points: List[List[int]], k: int) -> List[List[int]]:
         self._quick_sort(points, 0, len(points)-1, k)
