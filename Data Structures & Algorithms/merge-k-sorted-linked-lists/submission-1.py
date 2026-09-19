@@ -1,8 +1,6 @@
-# Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, val=0, next=None):
-#         self.val = val
-#         self.next = next
+# Achieved O(N log k) but space complexity is now O(k)
+# Need to improve Space Complexity to O(1) with in place merging
+# This is Divide and Conquer approach
 
 class Solution:    
     def mergeKLists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
